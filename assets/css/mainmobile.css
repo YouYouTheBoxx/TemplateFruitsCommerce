@@ -1,0 +1,18 @@
+.mobileSidebarLink {
+    display: flex;
+    align-items: center;
+}
+
+.mobileSidebarImg {
+    width: 64px;
+    height: 64px;
+    margin: 0.5rem !important;
+}
+
+main {
+    height: 100vh;
+}
+
+.mobileSidebar {
+    height: 100%;
+}
