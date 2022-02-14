@@ -21,23 +21,35 @@ img{
     justify-content: space-between;
 }
 
+#sideBar > #mobileBtn {
+    display: none !important;
+}
 
 @media screen and (max-width: 600px) {
 
     #sideBar{
         border: none;
         width: 10vw;
-        min-width: 100px; 
-        
+        min-width: 100px;
+    }
+    #ul-sidebar{
+        transform: translateX(-100%);
+        transition: 0.25s all;
     }
 
-        #ul-sidebar{
-            display: none;
-        }
+    #sidebar-hr{
+        display: none;
+    }
 
-        #sidebar-hr{
-            display: none;
-        }
+    #sideBar > #pcBtn {
+        display: none !important;
+    }
 
+    #sideBar > #mobileBtn {
+        display: initial !important;
+    }
+}
 
+.mobileSidebarDisplay {
+    display: initial !important;
 }
