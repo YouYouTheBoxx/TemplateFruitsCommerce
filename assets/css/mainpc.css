@@ -2,7 +2,7 @@ main{
     height: 100vh;
 }
 
-#sideBar{
+.sidebar-pc{
     border-right: 1px solid black;
     width: 10vw;
     min-width: 100px; 
@@ -19,4 +19,25 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #sideBar{
+        border: none;
+        width: 10vw;
+        min-width: 100px; 
+        
+    }
+
+        #ul-sidebar{
+            display: none;
+        }
+
+        #sidebar-hr{
+            display: none;
+        }
+
+
 }
